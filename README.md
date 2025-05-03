@@ -65,6 +65,3 @@ public void OldPhonePadService_OldPhonePad_ShouldReturnString(string input, stri
 
 ### 3. Run the Tests
         In the Test Explorer, click Run All to execute all tests.
-
-
-![Successful Unit Tests](https://github.com/tinhtetnaing/CodingChallenge/tests.png?raw=true)
