@@ -19,10 +19,11 @@ _ xUnit (for testing)
 
 ```
 /CodingChallenge.OldPhonePadConsoleApp
-  ├── Program.cs
-  └── OldPhonePadService.cs
+  ├── OldPhonePad
+  │   └── OldPhonePadService.cs      
+  └── Program.cs                    
 /CodingChallenge.OldPhonePadTests
-  └── OldPhonePadServiceTests.cs
+  └── OldPhonePadServiceTests.cs     
 README.md
 ```
 
@@ -66,4 +67,4 @@ public void OldPhonePadService_OldPhonePad_ShouldReturnString(string input, stri
         In the Test Explorer, click Run All to execute all tests.
 
 
-
+![Successful Unit Tests](https://github.com/tinhtetnaing/CodingChallenge/tests.png?raw=true)
