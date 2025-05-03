@@ -17,25 +17,26 @@ _ xUnit (for testing)
 
 ## Project Structure
 
+```
 /CodingChallenge.OldPhonePadConsoleApp
   ├── Program.cs
   └── OldPhonePadService.cs
 /CodingChallenge.OldPhonePadTests
   └── OldPhonePadServiceTests.cs
 README.md
-
+```
 
 ## Steps of Run
 
 ### 1. Clone Repo
-git clone 
-cd 
+    git clone https://github.com/tinhtetnaing/CodingChallenge.git
+    cd CodingChallenge
 ### 2. Open the Solution
-Open 'CodingChallenge' in Visual Studio
+    Open 'CodingChallenge.sln' in Visual Studio
 ### 3. Build the Solution
-Go to 'Build > Build Solution'
+    Go to 'Build > Build Solution'
 ### 4. Run the Project
-Press 'F5' or go to 'Debug > Start Debugging'
+    Press 'F5' or go to 'Debug > Start Debugging'
 
 ## Unit Tests
 This project includes unit testing and this is the sample test case. You can test with any input string you desired.
@@ -56,10 +57,10 @@ public void OldPhonePadService_OldPhonePad_ShouldReturnString(string input, stri
 ## Running the Tests
 
 ### 1. Open Test Explorer
-       Go to: Test > Test Explorer (or use Ctrl + E, T)
+       Go to: Test > Test Explorer 
 
 ### 2. Build the Solution
-       Build > Build Solution (or press Ctrl + Shift + B)
+       Build > Build Solution 
 
 ### 3. Run the Tests
         In the Test Explorer, click Run All to execute all tests.
